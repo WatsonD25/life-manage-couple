@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/life-manage-couple/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="留白">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  
+  <!-- Viewport settings for PWA native feel -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+
+  <!-- Lock screen CSS to prevent rubber-banding and text selection -->
+  <style>
+    html, body {
+      overscroll-behavior-y: none;
+      touch-action: pan-y;
+      -webkit-user-select: none;
+      user-select: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #232528; /* AppColors.dark background */
+    }
+
+    /* Zen Ripple Loading Animation */
+    .loader-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      /* removed z-index and background-color so it sits behind the Flutter app */
+    }
+    .ripple {
+      width: 48px;
+      height: 48px;
+      background-color: transparent;
+      border: 2px solid #6B8E7B; /* AppColors.actionPrimary */
+      border-radius: 50%;
+      animation: rippleAnim 2s infinite cubic-bezier(0.0, 0.2, 0.8, 1.0);
+    }
+    .loading-text {
+      margin-top: 24px;
+      color: #6B8E7B;
+      font-family: sans-serif;
+      font-size: 14px;
+      letter-spacing: 4px;
+      animation: pulseText 2s infinite ease-in-out;
+    }
+    @keyframes rippleAnim {
+      0% {
+        transform: scale(0.5);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1.5);
+        opacity: 0;
+      }
+    }
+    @keyframes pulseText {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+  </style>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>留白 (Zen Tasks)</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div class="loader-container" id="zen-loader">
+    <div class="ripple"></div>
+    <div class="loading-text">留白</div>
+  </div>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
