@@ -1,11 +1,11 @@
 {
-    "name": "zen_tasks",
-    "short_name": "zen_tasks",
+    "name": "留白 ‧ 靈犀",
+    "short_name": "留白",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#F4F3EE",
+    "theme_color": "#F4F3EE",
+    "description": "雙人禪意水墨待辦與心靈共鳴空間",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
