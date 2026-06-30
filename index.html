@@ -101,6 +101,23 @@
     <div class="ripple"></div>
     <div class="loading-text">留白</div>
   </div>
+  <!-- Force clear old Service Worker cache on iOS Safari -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for (var reg of registrations) {
+          reg.update();
+        }
+      });
+      if ('caches' in window) {
+        caches.keys().then(function(names) {
+          for (var name of names) {
+            caches.delete(name);
+          }
+        });
+      }
+    }
+  </script>
 
   <script src="flutter_bootstrap.js" async></script>
 </body>
