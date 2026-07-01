@@ -90301,7 +90301,7 @@ s===$&&A.a()
 s.ae$=$.al()
 s.ac$=0
 this.ap()},
-G(a){var s,r,q=this,p=null,o=q.gdq().e2($.aOe(),t.Bc),n=A.bm(a),m=A.azn(B.nP,B.Uq),l=q.w
+G(a){var s,r,q=this,p=null,o=q.gdq().e2($.aOe(),t.Bc),n=A.bm(a),m=A.azn(B.nP,B.Up),l=q.w
 l===$&&A.a()
 s=A.bR(p,p,A.bm(a).d,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p)
 r=A.bm(a).d.aG(0.05)
@@ -90441,7 +90441,7 @@ m.Z.push(m.gE2().apY(l,new A.aw2(r,a,n,o),q))
 m=n.c.aG(0.3)
 l=r.w
 s=t.p
-return new A.zV(A.aHA(A.ah0(A.azn(A.b([new A.dR(new A.aw3(n),q),B.zw],s),B.Up),n.a,A.CU(!0,new A.b4(B.cl,A.eq(A.b([B.P9,A.aT("\u4eca\u5929\u5fc5\u9808\u5b8c\u6210\u7684\u4e8b\u60c5",q,q,q,A.bR(q,q,n.b,q,q,q,q,q,q,q,q,26,q,q,B.b1,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),B.dS,A.h7(A.Kr(p,new A.aw4(n),new A.aw5(),new A.aw6(),t.D6,t.l7),1)],s),B.b9,B.O,B.a1,q),q),!0),q,B.N2),new A.aw7(r),m,l),o,q)}}
+return new A.zV(A.aHA(A.ah0(A.azn(A.b([new A.dR(new A.aw3(n),q),B.zw],s),B.Ur),n.a,A.CU(!0,new A.b4(B.cl,A.eq(A.b([B.P9,A.aT("\u4eca\u5929\u5fc5\u9808\u5b8c\u6210\u7684\u4e8b\u60c5",q,q,q,A.bR(q,q,n.b,q,q,q,q,q,q,q,q,26,q,q,B.b1,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),B.dS,A.h7(A.Kr(p,new A.aw4(n),new A.aw5(),new A.aw6(),t.D6,t.l7),1)],s),B.b9,B.O,B.a1,q),q),!0),q,B.N2),new A.aw7(r),m,l),o,q)}}
 A.aw2.prototype={
 $2(a,b){var s,r,q,p,o=this,n=null,m=b.gl()
 if(m==null)return
@@ -96494,8 +96494,8 @@ B.Pi=new A.kH(3,"hide")
 B.XA=new A.kH(4,"remove")
 B.z8=new A.kH(5,"timeout")
 B.Pj=new A.vQ(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Ur=new A.jK("\u4eca\u65e5\u5fae\u98a8\u5df2\u5439\u76e1\uff0c\u7559\u5f85\u660e\u671d\u518d\u76f8\u554f\u3002",null,null,null,null,null,null,null,null,null)
-B.Pk=new A.rl(B.Ur,null,null,null,null,null,null,null,null,null,null,null,null,B.ck,null,null,null,B.B,null)
+B.Uq=new A.jK("\u4eca\u65e5\u5fae\u98a8\u5df2\u5439\u76e1\uff0c\u7559\u5f85\u660e\u671d\u518d\u76f8\u554f\u3002",null,null,null,null,null,null,null,null,null)
+B.Pk=new A.rl(B.Uq,null,null,null,null,null,null,null,null,null,null,null,null,B.ck,null,null,null,B.B,null)
 B.z9=new A.DA(0,"permissive")
 B.Pl=new A.DA(1,"normal")
 B.Pm=new A.DA(2,"forced")
@@ -96858,8 +96858,8 @@ B.Qy=new A.n(!0,B.k,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.U1=new A.n(!0,B.k,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.h,null,null,null,"whiteMountainView labelMedium",null,null,null,null)
 B.T5=new A.n(!0,B.k,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.h,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.Uo=new A.dZ(B.Tj,B.R2,B.RX,B.TC,B.QM,B.QL,B.Ql,B.T3,B.TQ,B.QN,B.Rd,B.SX,B.Qy,B.U1,B.T5)
-B.Up=new A.jK("\u4eca\u65e5\u5c08\u6ce8 (Zen Mode)",null,null,null,null,null,null,null,null,null)
-B.Uq=new A.jK("\u60f3\u6cd5\u7559\u767d",null,null,null,null,null,null,null,null,null)
+B.Up=new A.jK("\u60f3\u6cd5\u7559\u767d",null,null,null,null,null,null,null,null,null)
+B.Ur=new A.jK("\u4eca\u65e5\u5c08\u6ce8 (Zen Mode) v2.2",null,null,null,null,null,null,null,null,null)
 B.i9=new A.iN(0,"system")
 B.zv=new A.iN(1,"light")
 B.dV=new A.iN(2,"dark")

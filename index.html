@@ -106,7 +106,7 @@
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.getRegistrations().then(function(registrations) {
         for (var reg of registrations) {
-          reg.update();
+          reg.unregister();
         }
       });
       if ('caches' in window) {
